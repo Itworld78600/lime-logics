@@ -13,6 +13,8 @@ import iotIcon from "../assets/iotIcon.png";
 import dataAnalyticsIcon from "../assets/dataAnalyticsIcon.png";
 import cognitiveServicesIcon from "../assets/cognitiveServicesIcon.png";
 import seoIcon from "../assets/seoIcon.png";
+import Usman from "../assets/usman.png";
+import Rizwan from "../assets/rizwan.png";
 
 export {
   logo,
@@ -30,4 +32,6 @@ export {
   dataAnalyticsIcon,
   cognitiveServicesIcon,
   seoIcon,
+  Usman,
+  Rizwan,
 };

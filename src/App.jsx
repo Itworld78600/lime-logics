@@ -14,7 +14,7 @@ function App() {
       <HomeBanner />
       <OurCourses />
       <OurServices />
-      {/* <OurInstructors /> */}
+      <OurInstructors />
       <LevelUp />
       <Footer />
     </>
