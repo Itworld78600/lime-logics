@@ -26,6 +26,7 @@ function OurServices() {
     <Box
       component="section"
       sx={{ backgroundColor: "#0B5384", py: { xs: 6, sm: 10 } }}
+      id="our-cources"
     >
       <Container maxWidth="xl">
         <Box>

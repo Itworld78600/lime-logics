@@ -3,7 +3,10 @@ import React from "react";
 
 function LevelUp() {
   return (
-    <Box component="section" sx={{ backgroundColor: "#0B5384", py: 12, mt: 2 }}>
+    <Box
+      component="section"
+      sx={{ backgroundColor: { xs: "#fff", md: "#0B5384" }, py: 12 }}
+    >
       <Container maxWidth="xl">
         <Box>
           <Typography
@@ -11,7 +14,7 @@ function LevelUp() {
             sx={{
               fontSize: "45px",
               fontWeight: 600,
-              color: "#fff",
+              color: { xs: "#0B5384", md: "#fff" },
               textAlign: "center",
               mb: 0.5,
             }}
@@ -19,7 +22,12 @@ function LevelUp() {
             Ready to Level Up?
           </Typography>
           <Typography
-            sx={{ fontSize: "18px", color: "#fff", textAlign: "center", mb: 4 }}
+            sx={{
+              fontSize: "18px",
+              color: { xs: "#212121", md: "#fff" },
+              textAlign: "center",
+              mb: 4,
+            }}
           >
             Apply today to be considered for our upcoming start dates.
           </Typography>

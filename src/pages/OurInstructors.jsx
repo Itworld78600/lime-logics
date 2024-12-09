@@ -13,6 +13,8 @@ import { Usman, Rizwan } from "../components/Images";
 // Import Swiper styles
 import "swiper/css";
 
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
+
 const CardWrapper = styled(Box)(({ theme }) => ({
   display: "flex",
   flexDirection: "row",
@@ -76,6 +78,11 @@ function OurInstructors() {
             spaceBetween={50}
             slidesPerView={1}
             loop={true}
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+            }}
+            modules={[Autoplay]}
             style={{ maxHeight: matches ? "206px" : "unset" }}
             breakpoints={{
               100: {

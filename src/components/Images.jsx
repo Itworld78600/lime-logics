@@ -15,6 +15,14 @@ import cognitiveServicesIcon from "../assets/cognitiveServicesIcon.png";
 import seoIcon from "../assets/seoIcon.png";
 import Usman from "../assets/usman.png";
 import Rizwan from "../assets/rizwan.png";
+import Student1 from "../assets/student-1.png";
+import reviewBg from "../assets/review-bg.png";
+import ourStory from "../assets/ourStory.png";
+import client_1 from "../assets/client-1.png";
+import client_2 from "../assets/client-2.png";
+import client_3 from "../assets/client-3.png";
+import contactBanner from "../assets/contactBanner.png";
+import contactImg from "../assets/contactImg.png";
 
 export {
   logo,
@@ -31,7 +39,15 @@ export {
   iotIcon,
   dataAnalyticsIcon,
   cognitiveServicesIcon,
+  contactBanner,
+  contactImg,
   seoIcon,
   Usman,
   Rizwan,
+  Student1,
+  reviewBg,
+  ourStory,
+  client_1,
+  client_2,
+  client_3,
 };
