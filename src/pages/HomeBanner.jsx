@@ -77,7 +77,8 @@ function HomeBanner() {
               </Typography>
               <Box sx={{ textAlign: { xs: "center", sm: "left" } }}>
                 <Button
-                  href="#"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScsJhMTGVEmGQoLN-YECCZgnz6tc_9v-K10gENt91-jfTLCVg/viewform?usp=sf_link"
+                  target="_blank"
                   sx={{
                     textTransform: "capitalize",
                     color: "#fff",

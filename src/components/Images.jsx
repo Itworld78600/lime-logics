@@ -23,6 +23,8 @@ import client_2 from "../assets/client-2.png";
 import client_3 from "../assets/client-3.png";
 import contactBanner from "../assets/contactBanner.png";
 import contactImg from "../assets/contactImg.png";
+import mobile from "../assets/mobile.png";
+import solutionBg from "../assets/solutionBg.png";
 
 export {
   logo,
@@ -41,6 +43,8 @@ export {
   cognitiveServicesIcon,
   contactBanner,
   contactImg,
+  mobile,
+  solutionBg,
   seoIcon,
   Usman,
   Rizwan,

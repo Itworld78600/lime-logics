@@ -8,6 +8,7 @@ import {
 } from "@mui/material";
 import React from "react";
 import { whiteLogo } from "./Images";
+import { Link } from "react-router-dom";
 
 const listItemStyles = {
   position: "relative",
@@ -33,6 +34,7 @@ const sections = [
   {
     title: "Company",
     items: ["Courses", "Blog", "Community", "About"],
+    links: ["/#our-courses", "/#blog", "/#community", "/#about"],
   },
   {
     title: "Courses",
@@ -46,10 +48,21 @@ const sections = [
       "Graphics & UIUX",
       "Embedding & IOT",
     ],
+    links: [
+      "/#Data-Science",
+      "/#Machine-and-Deep-Learning",
+      "/#Cloud-Computing",
+      "/#Business-Intelligence",
+      "/#Blockchain",
+      "/#Digital-Marketing-SEO",
+      "/#Graphics-UIUX",
+      "/#Embedding-IOT",
+    ],
   },
 ];
 
 function Footer() {
+  const year = new Date().getFullYear();
   return (
     <Box component="section" sx={{ backgroundColor: "#000", py: 3 }}>
       <Container maxWidth="xl">
@@ -61,23 +74,33 @@ function Footer() {
               src={whiteLogo}
               alt="logo"
             />
-            <Typography sx={{ fontSize: "13.77px", color: "#fff", my: 3.5 }}>
+            <Typography
+              sx={{ fontSize: "13.77px", color: "#fff", my: 3.5, mb: 4.5 }}
+            >
               orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis
             </Typography>
-            <Button
-              sx={{
+            <Link
+              variant="contained"
+              to="/contact-us"
+              style={{
                 backgroundColor: "#0B5384",
-                textTransform: "capitalize",
-                fontSize: "17px",
                 color: "#fff",
-                px: 2.5,
-                mt: 0.5,
+                borderRadius: "5px",
+                fontFamily: "Inter",
+                fontSize: "17.65px",
+                textTransform: "capitalize",
+                textDecoration: "none",
+                padding: "11px 19px",
+                marginTop: "12px",
+                "&:hover": {
+                  backgroundColor: "#0B5384",
+                },
               }}
             >
               Contact Us
-            </Button>
+            </Link>
           </Grid2>
           {sections.map((section, index) => (
             <Grid2 size={{ xs: 12, sm: 6, lg: index == 0 ? 2 : 3 }} key={index}>
@@ -89,7 +112,11 @@ function Footer() {
               <Box component="ul" sx={{ pl: 3.25, listStyle: "none", mb: 0 }}>
                 {section.items.map((item, idx) => (
                   <Box component="li" sx={listItemStyles} key={idx}>
-                    <Box component="a" href="#" sx={linkStyles}>
+                    <Box
+                      component="a"
+                      href={section.links[idx]}
+                      sx={linkStyles}
+                    >
                       {item}
                     </Box>
                   </Box>
@@ -163,7 +190,7 @@ function Footer() {
               mb: 1,
             }}
           >
-            Copyright © 2024 LimeLogics All Rights Reserved
+            Copyright © {year} LimeLogics All Rights Reserved
           </Typography>
         </Box>
       </Container>

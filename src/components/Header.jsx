@@ -75,7 +75,7 @@ export default function Header() {
                         color: "#0B5384",
                       },
                     }}
-                    href="/#our-cources"
+                    href="/#our-courses"
                     color="inherit"
                   >
                     Courses
@@ -105,7 +105,7 @@ export default function Header() {
                         color: "#0B5384",
                       },
                     }}
-                    href="#"
+                    href="/#community"
                     color="inherit"
                   >
                     Community
@@ -120,7 +120,7 @@ export default function Header() {
                         color: "#0B5384",
                       },
                     }}
-                    href="#"
+                    href="/#about"
                     color="inherit"
                   >
                     About
@@ -179,21 +179,9 @@ export default function Header() {
                     color: "#fff",
                   },
                 }}
-                href="#"
+                href="/#our-courses"
                 color="inherit"
-              >
-                Home
-              </Button>
-              <Button
-                sx={{
-                  width: "95%",
-                  "&:hover": {
-                    backgroundColor: "#0B5384",
-                    color: "#fff",
-                  },
-                }}
-                href="#"
-                color="inherit"
+                onClick={handleToggleMenu}
               >
                 Courses
               </Button>
@@ -205,8 +193,9 @@ export default function Header() {
                     color: "#fff",
                   },
                 }}
-                href="#"
+                href="/#blog"
                 color="inherit"
+                onClick={handleToggleMenu}
               >
                 Blog
               </Button>
@@ -218,8 +207,9 @@ export default function Header() {
                     color: "#fff",
                   },
                 }}
-                href="#"
+                href="/#community"
                 color="inherit"
+                onClick={handleToggleMenu}
               >
                 Community
               </Button>
@@ -231,25 +221,31 @@ export default function Header() {
                     color: "#fff",
                   },
                 }}
-                href="#"
+                href="/#about"
                 color="inherit"
+                onClick={handleToggleMenu}
               >
                 About
               </Button>
-              <Button
+              <Link
                 variant="contained"
-                sx={{
+                to="/contact-us"
+                style={{
                   backgroundColor: "#0B5384",
                   color: "#fff",
                   borderRadius: "5px",
                   width: "95%",
+                  textAlign: "center",
+                  textDecoration: "none",
+                  padding: "4px 0px",
                   "&:hover": {
                     backgroundColor: "#0B5384",
                   },
                 }}
+                onClick={handleToggleMenu}
               >
                 Contact Us
-              </Button>
+              </Link>
             </Box>
           </Collapse>
         </Box>

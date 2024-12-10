@@ -19,6 +19,7 @@ function OurStory() {
       sx={{
         backgroundColor: { xs: "#0B5384", md: "unset" },
       }}
+      id="community"
     >
       <Container maxWidth="xl">
         <Box

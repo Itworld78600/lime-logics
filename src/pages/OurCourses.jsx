@@ -5,7 +5,7 @@ import EastIcon from "@mui/icons-material/East";
 
 function OurCourses() {
   return (
-    <Box component="section" py={5}>
+    <Box component="section" py={5} id="our-courses">
       <Container maxWidth="lg">
         <Box sx={{ textAlign: "center" }}>
           <Typography
@@ -263,7 +263,7 @@ function OurCourses() {
             </Box>
           </Grid2>
         </Grid2>
-        <Grid2 container spacing={{ xs: 5, md: 15 }} mt={10}>
+        <Grid2 container spacing={{ xs: 5, md: 15 }} mt={10} id="about">
           <Grid2
             size={{ xs: 12, sm: 6 }}
             sx={{

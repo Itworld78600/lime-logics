@@ -5,9 +5,10 @@ import HomeBanner from "./pages/HomeBanner";
 import OurCourses from "./pages/OurCourses";
 import OurServices from "./pages/OurServices";
 import OurInstructors from "./pages/OurInstructors";
-import LevelUp from "./pages/LevelUp";
+import Solutions from "./pages/Solutions";
 import Reviews from "./pages/Reviews";
 import OurStory from "./pages/OurStory";
+import LevelUp from "./pages/LevelUp";
 import ContactUs from "./pages/ContactUs";
 import NotFound from "./pages/NotFound";
 import { Routes, Route } from "react-router-dom";
@@ -25,6 +26,7 @@ function App() {
               <OurCourses />
               <OurServices />
               <OurInstructors />
+              <Solutions />
               <Reviews />
               <OurStory />
               <LevelUp />
