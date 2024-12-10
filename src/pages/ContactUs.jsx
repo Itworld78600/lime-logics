@@ -40,7 +40,7 @@ function ContactUs() {
         <Box
           component="img"
           src={contactBanner}
-          sx={{ maxWidth: "100%" }}
+          sx={{ maxWidth: "100%", width: "100%" }}
           alt="contact banner"
         />
         <Box
