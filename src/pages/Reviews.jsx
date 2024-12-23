@@ -35,16 +35,21 @@ function Reviews() {
               fontWeight: 600,
             }}
           >
-            Voices of Our Learners
+            Trusted by Businesses, Driven by Results
           </Typography>
           <Typography
             sx={{
               color: "#515254",
               fontSize: { xs: "16px", sm: "18px" },
               textAlign: "center",
+              my: 2,
             }}
           >
-            See the impact of our Courses through the eyes of our learners.
+            Discover how our solutions have helped clients overcome challenges,
+            scale their businesses, and achieve remarkable success. Their
+            experiences highlight the value we bring through innovative software
+            development, cutting-edge technology, and unwavering dedication to
+            excellence.
           </Typography>
         </Box>
         <Box my={{ xs: 0, md: 20 }}>

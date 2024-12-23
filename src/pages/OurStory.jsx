@@ -145,8 +145,8 @@ function OurStory() {
                       mb: { xs: 0, sm: 0.5 },
                     }}
                   >
-                    Our fleet includes well-maintained, industry-leading
-                    machines ready for any project.
+                    Learn from industry professionals and gain insights that
+                    bridge the gap between theory and real-world application.
                   </Typography>
                 </Box>
                 <Box
@@ -183,8 +183,8 @@ function OurStory() {
                       mb: { xs: 0, sm: 0.5 },
                     }}
                   >
-                    Our fleet includes well-maintained, industry-leading
-                    machines ready for any project.
+                    Tailor your learning journey to fit your schedule and goals,
+                    with courses that adapt to your pace and needs.
                   </Typography>
                 </Box>
                 <Box
@@ -221,8 +221,9 @@ function OurStory() {
                       mb: { xs: 0, sm: 0.5 },
                     }}
                   >
-                    Our fleet includes well-maintained, industry-leading
-                    machines ready for any project.
+                    Engage in practical projects and real-world simulations,
+                    ensuring you develop the skills that employers are looking
+                    for.
                   </Typography>
                 </Box>
               </Box>

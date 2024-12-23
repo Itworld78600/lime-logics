@@ -58,9 +58,25 @@ function OurServices() {
               fontWeight: 700,
               color: "#fff",
               textAlign: "center",
+              textTransform: "uppercase",
+              mb: 1.5,
             }}
           >
-            FULL-CYCLE SERVICES FOR YOUR NEEDS
+            Comprehensive Solutions Tailored to Your Goals
+          </Typography>
+          <Typography
+            sx={{
+              fontSize: { xs: "14px", sm: "16px" },
+              fontWeight: 500,
+              color: "#fff",
+              textAlign: "center",
+            }}
+          >
+            We provide end-to-end software development and web development
+            training designed to meet your unique needs. From initial
+            consultation to deployment and beyond, our full-cycle services
+            ensure seamless project execution and skill enhancement at every
+            stage.
           </Typography>
         </Box>
         <Grid2
@@ -117,10 +133,10 @@ function OurServices() {
                   Graphic Designing
                 </Typography>
                 <Typography sx={{ fontSize: "12px", color: "#fff" }}>
-                  We have dedicated professional graphic designing resources
-                  on-board. They are incredibly talented in turning ideas into
-                  creative pictorial and visual designs. In addition, crafting
-                  website templates
+                  Our dedicated graphic design team transforms ideas into
+                  compelling visuals. From logos and branding to website
+                  templates and marketing materials, we craft designs that
+                  captivate and communicate your vision effectively.
                 </Typography>
               </Box>
             </Box>
@@ -174,9 +190,10 @@ function OurServices() {
                   Business Intelligence
                 </Typography>
                 <Typography sx={{ fontSize: "12px", color: "#fff" }}>
-                  We have years of experience in developing top-class sites that
-                  have the potential to directly appeal to the targeted market,
-                  turning the visitors into potential customers.
+                  With years of experience, we develop business intelligence
+                  solutions that transform data into actionable insights. Our
+                  platforms help businesses understand their market, attract the
+                  right audience, and convert visitors into loyal customers.
                 </Typography>
               </Box>
             </Box>
@@ -230,9 +247,10 @@ function OurServices() {
                   Artificial Intelligence
                 </Typography>
                 <Typography sx={{ fontSize: "12px", color: "#fff" }}>
-                  We have a highly-skilled mobile application development team,
-                  and they possess the skills to bring life to the most complex
-                  and technical scenarios.
+                  Our expert AI development team creates intelligent
+                  applications that solve complex problems and automate
+                  processes. From machine learning to advanced algorithms, we
+                  bring your ideas to life with cutting-edge technology.
                 </Typography>
               </Box>
             </Box>
@@ -286,10 +304,10 @@ function OurServices() {
                   Cloud Computing
                 </Typography>
                 <Typography sx={{ fontSize: "12px", color: "#fff" }}>
-                  Our certified Game Developers possess the skills to create
-                  games from scratch. They are well-versed in the current gaming
-                  trends. Our team specializes in crafting full-motion and
-                  rendering animations.
+                  Our certified developers design and deploy cloud solutions
+                  that power games, applications, and enterprise systems. We
+                  specialize in crafting full-motion experiences, ensuring
+                  reliability and scalability in every project.
                 </Typography>
               </Box>
             </Box>
@@ -343,9 +361,10 @@ function OurServices() {
                   Blockchain Development
                 </Typography>
                 <Typography sx={{ fontSize: "12px", color: "#fff" }}>
-                  We are proud to be industry pioneers and have incepted several
-                  web platforms to serve users' needs. We are well-versed in the
-                  marketing trends, which is why smallseotools.
+                  As industry pioneers, we develop blockchain platforms that
+                  serve diverse needs. From decentralized applications to secure
+                  web platforms, our expertise ensures innovation and
+                  reliability in every blockchain project.
                 </Typography>
               </Box>
             </Box>
@@ -399,9 +418,10 @@ function OurServices() {
                   IOT and Embedding
                 </Typography>
                 <Typography sx={{ fontSize: "12px", color: "#fff" }}>
-                  With years of experience, we have laid the foundation of
-                  several applications and games that have garnered millions of
-                  downloads. In the domain of designing
+                  With extensive experience, we develop IoT solutions and
+                  embedded systems that drive innovation. Our applications and
+                  smart products have reached millions, delivering efficient
+                  performance and seamless connectivity.
                 </Typography>
               </Box>
             </Box>
@@ -455,9 +475,10 @@ function OurServices() {
                   Data Analytics
                 </Typography>
                 <Typography sx={{ fontSize: "12px", color: "#fff" }}>
-                  Our content writing team possesses immense skills. They know
-                  how to transform ideas and thoughts into words. Our writers
-                  are well-versed in the distinguishing
+                  Our data analytics services help businesses make informed
+                  decisions by transforming raw data into valuable insights.
+                  From market analysis to performance tracking, we ensure data
+                  becomes a powerful asset.
                 </Typography>
               </Box>
             </Box>
@@ -511,9 +532,10 @@ function OurServices() {
                   Cognitive Services
                 </Typography>
                 <Typography sx={{ fontSize: "12px", color: "#fff" }}>
-                  Our Quality Assurance team tests all of our products and
-                  projects ruthlessly. They deploy different scenarios for the
-                  fixation of bugs and functionality ends.
+                  Our QA and cognitive services teams rigorously test and refine
+                  products to ensure optimal functionality. By simulating
+                  real-world scenarios, we identify and resolve bugs, ensuring
+                  smooth and efficient user experiences.
                 </Typography>
               </Box>
             </Box>
@@ -567,10 +589,10 @@ function OurServices() {
                   Search engine optimization
                 </Typography>
                 <Typography sx={{ fontSize: "12px", color: "#fff" }}>
-                  We are well-established publishers and offering services for
-                  Amazon Kindle Direct Publishing. Our library is growing over
-                  the years, with more than 200 quality books to cater to
-                  readers' cravings worldwide.
+                  We optimize websites and content to enhance search rankings
+                  and drive organic growth. As experienced publishers, we also
+                  offer Amazon Kindle Direct Publishing services, helping
+                  authors and businesses reach a global audience.
                 </Typography>
               </Box>
             </Box>

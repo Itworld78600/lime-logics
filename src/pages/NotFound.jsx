@@ -36,7 +36,7 @@ function NotFound() {
           <Box mt={3.5}>
             <Button
               variant="contained"
-              href="/contact-us"
+              href="/"
               sx={{
                 backgroundColor: "#0B5384",
                 color: "#fff",

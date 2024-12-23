@@ -68,9 +68,19 @@ function OurInstructors() {
               fontSize: "18px",
               color: "#515254",
               textAlign: "center",
+              maxWidth: "980px",
+              textAlign: "center",
+              mx: "auto",
+              mt: 2,
             }}
           >
-            Guiding you with experience, passion, and dedication.
+            Our instructors are seasoned professionals with extensive experience
+            in software development and web technologies. With a passion for
+            teaching and a commitment to your growth, they bring real-world
+            knowledge and practical insights to every lesson. Whether you're
+            mastering the fundamentals or diving into advanced topics, our
+            instructors guide you every step of the way, ensuring you gain the
+            skills needed to succeed in today’s competitive tech landscape.
           </Typography>
         </Box>
         <Box sx={{ mt: { xs: 0, sm: 6, md: 0, lg: 5 } }}>

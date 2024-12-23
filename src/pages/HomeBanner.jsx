@@ -71,9 +71,9 @@ function HomeBanner() {
                   textAlign: { xs: "center", sm: "left" },
                 }}
               >
-                Develop the skills that will empower you to take control of your
-                career path. Elevate your professional journey by building the
-                expertise that drives lasting success.
+                Unlock the potential to shape your career with hands-on learning
+                and expert guidance. Gain the skills that set you apart and
+                drive your success in the tech industry.
               </Typography>
               <Box sx={{ textAlign: { xs: "center", sm: "left" } }}>
                 <Button
