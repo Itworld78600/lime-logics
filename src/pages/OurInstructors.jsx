@@ -69,7 +69,6 @@ function OurInstructors() {
               color: "#515254",
               textAlign: "center",
               maxWidth: "980px",
-              textAlign: "center",
               mx: "auto",
               mt: 2,
             }}

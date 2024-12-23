@@ -75,11 +75,13 @@ function Footer() {
               alt="logo"
             />
             <Typography
-              sx={{ fontSize: "13.77px", color: "#fff", my: 3.5, mb: 4.5 }}
+              sx={{ fontSize: "13.77px", color: "#fff", my: 1.5, mb: 4.5 }}
             >
-              orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis
+              At LimeLogics, we blend innovation with cutting-edge technology to
+              deliver exceptional software solutions and web development
+              services. Our team of experts is dedicated to transforming ideas
+              into powerful digital products that drive business growth and
+              success.
             </Typography>
             <Link
               variant="contained"
