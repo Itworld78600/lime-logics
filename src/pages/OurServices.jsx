@@ -13,7 +13,7 @@ function OurServices() {
   return (
     <Box
       component="section"
-      sx={{ backgroundColor: "#0B5384", py: { xs: 6, sm: 10 } }}
+      sx={{ backgroundColor: "#0B5384", pt: { xs: 6, sm: 10 }, pb: { xs: 10, sm: 13 } }}
     >
       <Container maxWidth="xl">
         <Box>

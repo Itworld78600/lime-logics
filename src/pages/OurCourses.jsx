@@ -60,7 +60,7 @@ function OurCourses() {
             the fast-paced tech industry
           </Typography>
         </Box>
-        <Grid2 container spacing={{ xs: 5, sm: 2, md: 8 }} mt={10}>
+        <Grid2 container spacing={{ xs: 10, sm: 4, md: 8 }} mt={10}>
           <Grid2 size={{ xs: 12, sm: 6 }}>
             <Box
               sx={{
