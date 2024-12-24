@@ -52,7 +52,7 @@ function OurStory() {
                     mb: isMd ? 3.5 : 5,
                   }}
                 >
-                  Join a Thriving Community of Learners!
+                  Join a Growing Community of Successful Clients!
                 </Typography>
                 <Typography
                   sx={{
@@ -61,7 +61,7 @@ function OurStory() {
                     mb: isMd ? 3.5 : 5,
                   }}
                 >
-                  Empowering over 10+ members to unlock their potential.
+                  Empowering 100+ clients to achieve their business goals.
                 </Typography>
                 <Box sx={{ display: "flex", alignItems: "center" }}>
                   <Box mt={1}>
@@ -104,7 +104,7 @@ function OurStory() {
                       ml: 2,
                     }}
                   >
-                    + 5K trusted members
+                    100+ trusted Clients
                   </Typography>
                 </Box>
               </Box>
@@ -132,7 +132,7 @@ function OurStory() {
                       mb: { xs: 1.25, sm: 2.25, md: isMd ? 1.5 : 2.25 },
                     }}
                   >
-                    Expert-Led Courses
+                    Expert-Led Development
                   </Typography>
                   <Typography
                     sx={{
@@ -145,8 +145,8 @@ function OurStory() {
                       mb: { xs: 0, sm: 0.5 },
                     }}
                   >
-                    Learn from industry professionals and gain insights that
-                    bridge the gap between theory and real-world application.
+                    Leverage the skills of seasoned professionals to create
+                    innovative, scalable solutions that drive results.
                   </Typography>
                 </Box>
                 <Box
@@ -170,7 +170,7 @@ function OurStory() {
                       mb: { xs: 1.25, sm: 2.25, md: isMd ? 1.5 : 2.25 },
                     }}
                   >
-                    Flexible Learning Paths
+                    Tailored Solutions
                   </Typography>
                   <Typography
                     sx={{
@@ -183,8 +183,9 @@ function OurStory() {
                       mb: { xs: 0, sm: 0.5 },
                     }}
                   >
-                    Tailor your learning journey to fit your schedule and goals,
-                    with courses that adapt to your pace and needs.
+                    We customize our services to align with your specific
+                    business needs, ensuring flexible, growth-focused
+                    development paths.
                   </Typography>
                 </Box>
                 <Box
@@ -208,7 +209,7 @@ function OurStory() {
                       mb: { xs: 1.25, sm: 2.25, md: isMd ? 1.5 : 2.25 },
                     }}
                   >
-                    Hands-On Experience
+                    Real-World Results
                   </Typography>
                   <Typography
                     sx={{
@@ -221,9 +222,8 @@ function OurStory() {
                       mb: { xs: 0, sm: 0.5 },
                     }}
                   >
-                    Engage in practical projects and real-world simulations,
-                    ensuring you develop the skills that employers are looking
-                    for.
+                    Our hands-on approach guarantees practical, high-performing
+                    solutions that deliver tangible value and long-term success.
                   </Typography>
                 </Box>
               </Box>
@@ -252,7 +252,7 @@ function OurStory() {
                       textAlign: "center",
                     }}
                   >
-                    120K+
+                    100+
                   </Typography>
                   <Typography
                     sx={{
@@ -265,7 +265,7 @@ function OurStory() {
                       textAlign: "center",
                     }}
                   >
-                    Trusted members
+                    Trusted Clients
                   </Typography>
                 </Box>
                 <Box>
@@ -282,7 +282,7 @@ function OurStory() {
                       textAlign: "center",
                     }}
                   >
-                    50K+
+                    350+
                   </Typography>
                   <Typography
                     sx={{
@@ -295,7 +295,7 @@ function OurStory() {
                       textAlign: "center",
                     }}
                   >
-                    Active courses
+                    Delivered Projects
                   </Typography>
                 </Box>
                 <Box>
@@ -312,7 +312,7 @@ function OurStory() {
                       textAlign: "center",
                     }}
                   >
-                    10K+
+                    100+
                   </Typography>
                   <Typography
                     sx={{
@@ -325,7 +325,7 @@ function OurStory() {
                       textAlign: "center",
                     }}
                   >
-                    Talented tutors
+                    Five Stars
                   </Typography>
                 </Box>
               </Box>

@@ -61,7 +61,7 @@ function OurCourses() {
           </Typography>
         </Box>
         <Grid2 container spacing={{ xs: 5, sm: 2, md: 8 }} mt={10}>
-          <Grid2 size={{ xs: 12, sm: 4 }}>
+          <Grid2 size={{ xs: 12, sm: 6 }}>
             <Box
               sx={{
                 backgroundColor: "#F5F3F3",
@@ -85,7 +85,7 @@ function OurCourses() {
               <Box sx={{ textAlign: "center" }}>
                 <Box
                   component="img"
-                  sx={{ maxWidth: "100%", mt: -3.25 }}
+                  sx={{ maxWidth: "100%", mt: -7 }}
                   src={courseImg}
                   alt="course image"
                 />
@@ -94,9 +94,9 @@ function OurCourses() {
                 variant="h3"
                 className="hover-text"
                 sx={{
-                  maxWidth: "200px",
+                  maxWidth: "270px",
                   mx: "auto",
-                  fontSize: "21px",
+                  fontSize: "24px",
                   textAlign: "center",
                   fontWeight: 700,
                   color: "#0B5384",
@@ -109,7 +109,7 @@ function OurCourses() {
                 className="hover-subtext"
                 sx={{
                   color: "#5A5454",
-                  fontSize: "10px",
+                  fontSize: "14px",
                   textAlign: "center",
                   mb: 3.5,
                 }}
@@ -135,7 +135,7 @@ function OurCourses() {
               </Box> */}
             </Box>
           </Grid2>
-          <Grid2 size={{ xs: 12, sm: 4 }}>
+          <Grid2 size={{ xs: 12, sm: 6 }}>
             <Box
               sx={{
                 backgroundColor: "#F5F3F3",
@@ -159,7 +159,7 @@ function OurCourses() {
               <Box sx={{ textAlign: "center" }}>
                 <Box
                   component="img"
-                  sx={{ maxWidth: "100%", mt: -3.25 }}
+                  sx={{ maxWidth: "100%", mt: -7 }}
                   src={courseImg}
                   alt="course image"
                 />
@@ -168,9 +168,9 @@ function OurCourses() {
                 variant="h3"
                 className="hover-text"
                 sx={{
-                  maxWidth: "200px",
+                  maxWidth: "270px",
                   mx: "auto",
-                  fontSize: "21px",
+                  fontSize: "24px",
                   textAlign: "center",
                   fontWeight: 700,
                   color: "#0B5384",
@@ -183,7 +183,7 @@ function OurCourses() {
                 className="hover-subtext"
                 sx={{
                   color: "#5A5454",
-                  fontSize: "10px",
+                  fontSize: "14px",
                   textAlign: "center",
                   mb: 3.5,
                 }}

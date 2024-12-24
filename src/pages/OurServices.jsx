@@ -1,10 +1,4 @@
-import {
-  Box,
-  Container,
-  Grid2,
-  Typography,
-  useMediaQuery,
-} from "@mui/material";
+import { Box, Container, Grid2, Typography } from "@mui/material";
 import React from "react";
 import {
   graphicDesignIcon,
@@ -13,15 +7,9 @@ import {
   cloudComputingIcon,
   blockchainIcon,
   iotIcon,
-  dataAnalyticsIcon,
-  cognitiveServicesIcon,
-  seoIcon,
 } from "../components/Images";
 
 function OurServices() {
-  const isMobile = useMediaQuery("(max-width:644px)");
-  const isMd = useMediaQuery("(max-width:1162px)");
-  const isLg = useMediaQuery("(max-width:1211px)");
   return (
     <Box
       component="section"
@@ -81,20 +69,14 @@ function OurServices() {
         </Box>
         <Grid2
           container
-          spacing={{ xs: 6, sm: 5, lg: 8 }}
+          spacing={10}
           mt={{ xs: 6.5, sm: 12 }}
         >
           <Grid2 size={{ xs: 12, sm: 6, md: 4 }}>
             <Box
               sx={{
                 border: "2px solid #fff",
-                minHeight: {
-                  xs: "auto",
-                  sm: isMobile ? "210px" : "172px",
-                  md: isMd ? "189px" : "165px",
-                  lg: isLg ? "172px" : "154px",
-                  xl: "136px",
-                },
+                minHeight: "100%",
                 borderRadius: "5px",
                 px: 3,
                 pb: 3,
@@ -145,13 +127,7 @@ function OurServices() {
             <Box
               sx={{
                 border: "2px solid #fff",
-                minHeight: {
-                  xs: "auto",
-                  sm: isMobile ? "210px" : "172px",
-                  md: isMd ? "189px" : "165px",
-                  lg: isLg ? "172px" : "154px",
-                  xl: "136px",
-                },
+                minHeight: "100%",
                 borderRadius: "5px",
                 px: 3,
                 pb: 3,
@@ -187,13 +163,13 @@ function OurServices() {
                   variant="h5"
                   sx={{ fontSize: "18px", color: "#fff", mb: 1.1 }}
                 >
-                  Business Intelligence
+                  Website Development
                 </Typography>
                 <Typography sx={{ fontSize: "12px", color: "#fff" }}>
-                  With years of experience, we develop business intelligence
-                  solutions that transform data into actionable insights. Our
-                  platforms help businesses understand their market, attract the
-                  right audience, and convert visitors into loyal customers.
+                  We craft innovative, responsive websites tailored to your
+                  business needs. Our team blends creativity with the latest
+                  technologies to build user-friendly, visually appealing, and
+                  high-performing websites.
                 </Typography>
               </Box>
             </Box>
@@ -202,13 +178,7 @@ function OurServices() {
             <Box
               sx={{
                 border: "2px solid #fff",
-                minHeight: {
-                  xs: "auto",
-                  sm: isMobile ? "210px" : "172px",
-                  md: isMd ? "189px" : "165px",
-                  lg: isLg ? "172px" : "154px",
-                  xl: "136px",
-                },
+                minHeight: "100%",
                 borderRadius: "5px",
                 px: 3,
                 pb: 3,
@@ -244,13 +214,13 @@ function OurServices() {
                   variant="h5"
                   sx={{ fontSize: "18px", color: "#fff", mb: 1.1 }}
                 >
-                  Artificial Intelligence
+                  Wordpress Development
                 </Typography>
                 <Typography sx={{ fontSize: "12px", color: "#fff" }}>
-                  Our expert AI development team creates intelligent
-                  applications that solve complex problems and automate
-                  processes. From machine learning to advanced algorithms, we
-                  bring your ideas to life with cutting-edge technology.
+                  We specialize in crafting custom WordPress websites that are
+                  fast, secure, and easy to manage. Our team designs and
+                  develops responsive sites tailored to your brand, ensuring
+                  seamless performance on all devices.
                 </Typography>
               </Box>
             </Box>
@@ -259,13 +229,7 @@ function OurServices() {
             <Box
               sx={{
                 border: "2px solid #fff",
-                minHeight: {
-                  xs: "auto",
-                  sm: isMobile ? "210px" : "172px",
-                  md: isMd ? "189px" : "165px",
-                  lg: isLg ? "172px" : "154px",
-                  xl: "136px",
-                },
+                minHeight: "100%",
                 borderRadius: "5px",
                 px: 3,
                 pb: 3,
@@ -301,13 +265,13 @@ function OurServices() {
                   variant="h5"
                   sx={{ fontSize: "18px", color: "#fff", mb: 1.1 }}
                 >
-                  Cloud Computing
+                  Ecommerce & Shopify Development
                 </Typography>
                 <Typography sx={{ fontSize: "12px", color: "#fff" }}>
-                  Our certified developers design and deploy cloud solutions
-                  that power games, applications, and enterprise systems. We
-                  specialize in crafting full-motion experiences, ensuring
-                  reliability and scalability in every project.
+                  We design and develop custom eCommerce solutions that drive
+                  sales and elevate your brand. Specializing in Shopify, we
+                  create visually stunning, user-friendly online stores
+                  optimized for performance and conversion.
                 </Typography>
               </Box>
             </Box>
@@ -316,13 +280,7 @@ function OurServices() {
             <Box
               sx={{
                 border: "2px solid #fff",
-                minHeight: {
-                  xs: "auto",
-                  sm: isMobile ? "210px" : "172px",
-                  md: isMd ? "189px" : "165px",
-                  lg: isLg ? "172px" : "154px",
-                  xl: "136px",
-                },
+                minHeight: "100%",
                 borderRadius: "5px",
                 px: 3,
                 pb: 3,
@@ -373,13 +331,7 @@ function OurServices() {
             <Box
               sx={{
                 border: "2px solid #fff",
-                minHeight: {
-                  xs: "auto",
-                  sm: isMobile ? "210px" : "172px",
-                  md: isMd ? "189px" : "165px",
-                  lg: isLg ? "172px" : "154px",
-                  xl: "136px",
-                },
+                minHeight: "100%",
                 borderRadius: "5px",
                 px: 3,
                 pb: 3,
@@ -415,184 +367,13 @@ function OurServices() {
                   variant="h5"
                   sx={{ fontSize: "18px", color: "#fff", mb: 1.1 }}
                 >
-                  IOT and Embedding
+                  MERN Stack Development
                 </Typography>
                 <Typography sx={{ fontSize: "12px", color: "#fff" }}>
-                  With extensive experience, we develop IoT solutions and
-                  embedded systems that drive innovation. Our applications and
-                  smart products have reached millions, delivering efficient
-                  performance and seamless connectivity.
-                </Typography>
-              </Box>
-            </Box>
-          </Grid2>
-          <Grid2 size={{ xs: 12, sm: 6, md: 4 }}>
-            <Box
-              sx={{
-                border: "2px solid #fff",
-                minHeight: {
-                  xs: "auto",
-                  sm: isMobile ? "210px" : "172px",
-                  md: isMd ? "189px" : "165px",
-                  lg: isLg ? "172px" : "154px",
-                  xl: "136px",
-                },
-                borderRadius: "5px",
-                px: 3,
-                pb: 3,
-              }}
-            >
-              <Box
-                sx={{
-                  backgroundColor: "#fff",
-                  height: "53px",
-                  width: "53px",
-                  borderRadius: "50%",
-                  position: "relative",
-                  top: "-28px",
-                  left: "15px",
-                  border: "2px solid #B2E0FF",
-                }}
-              >
-                <Box
-                  component="img"
-                  src={dataAnalyticsIcon}
-                  sx={{
-                    maxWidth: "32px",
-                    position: "absolute",
-                    top: "50%",
-                    left: "50%",
-                    transform: "translate(-50%,-50%)",
-                  }}
-                  alt="Graphic Design Icon"
-                />
-              </Box>
-              <Box sx={{ mt: -1 }}>
-                <Typography
-                  variant="h5"
-                  sx={{ fontSize: "18px", color: "#fff", mb: 1.1 }}
-                >
-                  Data Analytics
-                </Typography>
-                <Typography sx={{ fontSize: "12px", color: "#fff" }}>
-                  Our data analytics services help businesses make informed
-                  decisions by transforming raw data into valuable insights.
-                  From market analysis to performance tracking, we ensure data
-                  becomes a powerful asset.
-                </Typography>
-              </Box>
-            </Box>
-          </Grid2>
-          <Grid2 size={{ xs: 12, sm: 6, md: 4 }}>
-            <Box
-              sx={{
-                border: "2px solid #fff",
-                minHeight: {
-                  xs: "auto",
-                  sm: isMobile ? "210px" : "172px",
-                  md: isMd ? "189px" : "165px",
-                  lg: isLg ? "172px" : "154px",
-                  xl: "136px",
-                },
-                borderRadius: "5px",
-                px: 3,
-                pb: 3,
-              }}
-            >
-              <Box
-                sx={{
-                  backgroundColor: "#fff",
-                  height: "53px",
-                  width: "53px",
-                  borderRadius: "50%",
-                  position: "relative",
-                  top: "-28px",
-                  left: "15px",
-                  border: "2px solid #B2E0FF",
-                }}
-              >
-                <Box
-                  component="img"
-                  src={cognitiveServicesIcon}
-                  sx={{
-                    maxWidth: "32px",
-                    position: "absolute",
-                    top: "50%",
-                    left: "50%",
-                    transform: "translate(-50%,-50%)",
-                  }}
-                  alt="Graphic Design Icon"
-                />
-              </Box>
-              <Box sx={{ mt: -1 }}>
-                <Typography
-                  variant="h5"
-                  sx={{ fontSize: "18px", color: "#fff", mb: 1.1 }}
-                >
-                  Cognitive Services
-                </Typography>
-                <Typography sx={{ fontSize: "12px", color: "#fff" }}>
-                  Our QA and cognitive services teams rigorously test and refine
-                  products to ensure optimal functionality. By simulating
-                  real-world scenarios, we identify and resolve bugs, ensuring
-                  smooth and efficient user experiences.
-                </Typography>
-              </Box>
-            </Box>
-          </Grid2>
-          <Grid2 size={{ xs: 12, sm: 6, md: 4 }}>
-            <Box
-              sx={{
-                border: "2px solid #fff",
-                minHeight: {
-                  xs: "auto",
-                  sm: isMobile ? "210px" : "172px",
-                  md: isMd ? "189px" : "165px",
-                  lg: isLg ? "172px" : "154px",
-                  xl: "136px",
-                },
-                borderRadius: "5px",
-                px: 3,
-                pb: 3,
-              }}
-            >
-              <Box
-                sx={{
-                  backgroundColor: "#fff",
-                  height: "53px",
-                  width: "53px",
-                  borderRadius: "50%",
-                  position: "relative",
-                  top: "-28px",
-                  left: "15px",
-                  border: "2px solid #B2E0FF",
-                }}
-              >
-                <Box
-                  component="img"
-                  src={seoIcon}
-                  sx={{
-                    maxWidth: "32px",
-                    position: "absolute",
-                    top: "50%",
-                    left: "50%",
-                    transform: "translate(-50%,-50%)",
-                  }}
-                  alt="Graphic Design Icon"
-                />
-              </Box>
-              <Box sx={{ mt: -1 }}>
-                <Typography
-                  variant="h5"
-                  sx={{ fontSize: "18px", color: "#fff", mb: 1.1 }}
-                >
-                  Search engine optimization
-                </Typography>
-                <Typography sx={{ fontSize: "12px", color: "#fff" }}>
-                  We optimize websites and content to enhance search rankings
-                  and drive organic growth. As experienced publishers, we also
-                  offer Amazon Kindle Direct Publishing services, helping
-                  authors and businesses reach a global audience.
+                  We build powerful, dynamic web applications using the MERN
+                  stack – MongoDB, Express.js, React, and Node.js. Our expertise
+                  lies in creating fast, scalable, and secure solutions that
+                  deliver exceptional user experiences.
                 </Typography>
               </Box>
             </Box>
