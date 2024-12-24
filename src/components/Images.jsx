@@ -15,7 +15,12 @@ import cognitiveServicesIcon from "../assets/cognitiveServicesIcon.png";
 import seoIcon from "../assets/seoIcon.png";
 import Usman from "../assets/usman.png";
 import Rizwan from "../assets/rizwan.png";
-import Student1 from "../assets/student-1.png";
+import cryptoakhiDp from "../assets/cryptoakhi-dp.png";
+import merouaneDp from "../assets/merouane-dp.png";
+import hazmDp from "../assets/hazm-dp.png";
+import doublezusaDp from "../assets/doublezusa.jpg";
+import ahmadjallowDp from "../assets/ahmadjallow-dp.png";
+import iamcryptogodDp from "../assets/iamcryptogod-dp.jpeg";
 import reviewBg from "../assets/review-bg.png";
 import ourStory from "../assets/ourStory.png";
 import client_1 from "../assets/client-1.png";
@@ -48,7 +53,12 @@ export {
   seoIcon,
   Usman,
   Rizwan,
-  Student1,
+  cryptoakhiDp,
+  merouaneDp,
+  hazmDp,
+  doublezusaDp,
+  ahmadjallowDp,
+  iamcryptogodDp,
   reviewBg,
   ourStory,
   client_1,
