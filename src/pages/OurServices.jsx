@@ -79,7 +79,7 @@ function OurServices() {
                 minHeight: "100%",
                 borderRadius: "5px",
                 px: 3,
-                pb: 3,
+                pb: 1.35,
               }}
             >
               <Box
@@ -130,7 +130,7 @@ function OurServices() {
                 minHeight: "100%",
                 borderRadius: "5px",
                 px: 3,
-                pb: 3,
+                pb: 1.35,
               }}
             >
               <Box
@@ -181,7 +181,7 @@ function OurServices() {
                 minHeight: "100%",
                 borderRadius: "5px",
                 px: 3,
-                pb: 3,
+                pb: 1.35,
               }}
             >
               <Box
@@ -232,7 +232,7 @@ function OurServices() {
                 minHeight: "100%",
                 borderRadius: "5px",
                 px: 3,
-                pb: 3,
+                pb: 1.35,
               }}
             >
               <Box
@@ -283,7 +283,7 @@ function OurServices() {
                 minHeight: "100%",
                 borderRadius: "5px",
                 px: 3,
-                pb: 3,
+                pb: 1.35,
               }}
             >
               <Box
@@ -334,7 +334,7 @@ function OurServices() {
                 minHeight: "100%",
                 borderRadius: "5px",
                 px: 3,
-                pb: 3,
+                pb: 1.35,
               }}
             >
               <Box
